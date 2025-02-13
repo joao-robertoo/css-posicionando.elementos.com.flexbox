@@ -16,7 +16,7 @@
 .nav__link {
     text-decoration: none;
     color: var(--cor-texto);
-    font-family: var(--font-texto);
+    font-family: var(--fonte-texto);
     font-size: var(--font-size-m);
     font-weight: 400;
 }
@@ -35,6 +35,7 @@
 .menu__toggle {
     display: none;
 }
+
 .nav__item_form {
     flex: 2;
 }
@@ -61,18 +62,18 @@
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width:730px) {
     .nav__link {
         display: none;
-    } 
-    
+    }
+
     .menu__toggle {
         display: block;
         cursor: pointer;
     }
 
     .header {
-        padding: var(--padding-m);
+        padding: 0 var(--padding-m);
     }
 
     .menu__toggle__icon {

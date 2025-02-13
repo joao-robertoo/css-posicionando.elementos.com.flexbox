@@ -1,5 +1,5 @@
 .cartaz {
-    margin: var(--margin-l);
+    margin: var(--margin-l) auto;
     max-width: var(--max-width-block);
 }
 
@@ -15,7 +15,7 @@
 }
 
 .cartaz__pesquisa::placeholder {
-    color: var(-cor-texto);
+    color: var(--cor-texto);
     font-family: var(--fonte-texto);
     background-image: url("../images/search.svg");
     background-repeat: no-repeat;
@@ -30,14 +30,14 @@
 
 .menu-list__item {
     font-family: var(--fonte-texto);
-    font-size: var(--fonte-size-m);
+    font-size: var(--font-size-m);
     font-weight: 400;
     line-height: var(--line-height-m);
 }
 
 .menu-list__item-ativo {
-    font-weight: 700;
-    text-decoration: underline;
+font-weight: 700;
+text-decoration: underline;
 }
 
 .cartaz__titulo {
@@ -56,21 +56,20 @@
     .menu-list {
         gap: var(--gap-xs);
     }
-    
+
     .cartaz__pesquisa {
         padding: var(--padding-xs) var(--padding-s);
         max-width: 100%;
     }
 
     .cartaz__titulo {
-        font-size: var(--fonte-size-m);
+        font-size: var(--font-size-m);
         line-height: var(--line-height-m);
     }
 }
 
 @media screen and (max-width: 730px) {
     .cartaz {
-        padding: 0 var(--padding-m);
-        
+        padding: 0 var(--padding-m)
     }
 }
