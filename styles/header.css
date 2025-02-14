@@ -21,6 +21,28 @@
     font-weight: 400;
 }
 
+.nav__link {
+    text-decoration: none;
+    color: var(--cor-texto);
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: black;
+        transition: width 0.3s ease;
+    }
+}
+
+.nav__link:hover::after,
+.nav__link:focus::after {
+    width: 100%;
+}
+
 .nav__input {
     width: 100%;
     border-radius: 0.5rem;

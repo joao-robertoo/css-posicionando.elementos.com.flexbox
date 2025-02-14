@@ -73,3 +73,13 @@ text-decoration: underline;
         padding: 0 var(--padding-m)
     }
 }
+
+.filme-list>li:nth-child(odd):hover img {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--cor-primaria-box-shadow);
+}
+
+.filme-list>li:nth-child(even):hover img {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--cor-secundaria-box-shadow);
+}

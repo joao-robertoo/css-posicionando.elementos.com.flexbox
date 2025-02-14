@@ -30,6 +30,7 @@
     padding: var(--padding-s);
     font-family: var(--fonte-texto);
     flex-grow: 1;
+    margin-top: 10px;
 
     display: flex;
     gap: 42px;
